@@ -18,8 +18,112 @@ export default function Dashboard() {
             <Link to="/Kanbas/Courses/1234/Home"> Go </Link>
           </div>
         </div>
-        <div className="wd-dashboard-course"> ... </div>
-        <div className="wd-dashboard-course"> ... </div>
+
+        <br/>
+        <div className="wd-dashboard-course">
+          <img src="/images/reactjs.jpg" width={200} />
+          <div>
+            <Link className="wd-dashboard-course-link"
+              to="/Kanbas/Courses/1234/Home">
+              CS5001 Intensive Foundations of Computer Science
+            </Link>
+            <p className="wd-dashboard-course-title">
+              Full Stack software developer
+            </p>
+            <Link to="/Kanbas/Courses/1234/Home"> Go </Link>
+          </div>
+        </div>
+
+        <br/>
+        <div className="wd-dashboard-course">
+          <img src="/images/reactjs.jpg" width={200} />
+          <div>
+            <Link className="wd-dashboard-course-link"
+              to="/Kanbas/Courses/1234/Home">
+              CS5002 	Discrete Structures
+            </Link>
+            <p className="wd-dashboard-course-title">
+              Full Stack software developer
+            </p>
+            <Link to="/Kanbas/Courses/1234/Home"> Go </Link>
+          </div>
+        </div>
+
+        <br/>
+        <div className="wd-dashboard-course">
+          <img src="/images/reactjs.jpg" width={200} />
+          <div>
+            <Link className="wd-dashboard-course-link"
+              to="/Kanbas/Courses/1234/Home">
+              CS5004 	Object-Oriented Design
+            </Link>
+            <p className="wd-dashboard-course-title">
+              Full Stack software developer
+            </p>
+            <Link to="/Kanbas/Courses/1234/Home"> Go </Link>
+          </div>
+        </div>
+
+        <br/>
+        <div className="wd-dashboard-course">
+          <img src="/images/reactjs.jpg" width={200} />
+          <div>
+            <Link className="wd-dashboard-course-link"
+              to="/Kanbas/Courses/1234/Home">
+              CS5008 Data Structures, Algorithms, and Their Applications within Computer Systems
+            </Link>
+            <p className="wd-dashboard-course-title">
+              Full Stack software developer
+            </p>
+            <Link to="/Kanbas/Courses/1234/Home"> Go </Link>
+          </div>
+        </div>
+
+        <br/>
+        <div className="wd-dashboard-course">
+          <img src="/images/reactjs.jpg" width={200} />
+          <div>
+            <Link className="wd-dashboard-course-link"
+              to="/Kanbas/Courses/1234/Home">
+              CS5800 	Algorithms
+            </Link>
+            <p className="wd-dashboard-course-title">
+              Full Stack software developer
+            </p>
+            <Link to="/Kanbas/Courses/1234/Home"> Go </Link>
+          </div>
+        </div>
+
+        <br/>
+        <div className="wd-dashboard-course">
+          <img src="/images/reactjs.jpg" width={200} />
+          <div>
+            <Link className="wd-dashboard-course-link"
+              to="/Kanbas/Courses/1234/Home">
+              CS5100	Foundations of Artificial Intelligence
+            </Link>
+            <p className="wd-dashboard-course-title">
+              Full Stack software developer
+            </p>
+            <Link to="/Kanbas/Courses/1234/Home"> Go </Link>
+          </div>
+        </div>
+
+        <br/>
+        <div className="wd-dashboard-course">
+          <img src="/images/reactjs.jpg" width={200} />
+          <div>
+            <Link className="wd-dashboard-course-link"
+              to="/Kanbas/Courses/1234/Home">
+              CS5610 Web Development
+            </Link>
+            <p className="wd-dashboard-course-title">
+              Full Stack software developer
+            </p>
+            <Link to="/Kanbas/Courses/1234/Home"> Go </Link>
+          </div>
+        </div>
+
       </div>
     </div>
   );
