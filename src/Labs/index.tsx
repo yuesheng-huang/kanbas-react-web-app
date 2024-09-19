@@ -8,7 +8,6 @@ export default function Labs() {
 
     return (
         <div>
-            <h1>Yuesheng Huang</h1>
             <h1>Labs</h1>
             <TOC />
             <Routes>
