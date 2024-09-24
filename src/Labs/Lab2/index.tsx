@@ -8,10 +8,20 @@ import Border from "./Borders";
 import Padding from "./Padding";
 import Margins from "./Margins";
 import Corners from "./Corners";
+import Float from "./Float";
+import GridLayout from "./GridLayout";
+import Flex from "./Flex";
+import ReactIconsSampler from "./ReactIcons";
+import BootstrapGrids from "./BootstrapGrids";
+import ScreenSizeLabel from "./ScreenSizeLabel";
+import BootstrapTables from "./BootstrapTables";
+import BootstrapLists from "./BootstrapLists";
+import BootstrapForms from "./BootstrapForms";
+import BootstrapNavigation from "./BootstrapNavigation";
 
 export default function Lab2() {
     return (
-      <div id="wd-lab2">
+      <div id="container">
         <h2>Lab 2 - Cascading Style Sheets</h2>
         <h3>Styling with the STYLE attribute</h3>
         <p>
@@ -21,6 +31,7 @@ export default function Lab2() {
           using the style attribute
         </p>
         
+        <br />
         <div id="wd-css-id-selectors">
             <h3>ID selectors</h3>
             <p id="wd-id-selector-1">Instead of changing the look and feel of all the 
@@ -31,6 +42,7 @@ export default function Lab2() {
             </p>
         </div>
 
+        <br />
         <div id="wd-css-class-selectors">
             <h3>Class selectors</h3>
             <p className="wd-class-selector">Instead of using IDs to refer to elements, you can use an 
@@ -39,6 +51,7 @@ export default function Lab2() {
             <h4 className="wd-class-selector"> This heading has same style as paragraph above</h4>
         </div>
 
+        <br />
         <div id="wd-css-document-structure">
             <div className="wd-selector-1">
                 <h3>Document structure selectors</h3>
@@ -60,30 +73,37 @@ export default function Lab2() {
             </div>
         </div>
 
+        <br />
         <div id="wd-css-colors">
             <ForegroundColors />
         </div>
 
+        <br />
         <div id="wd-css-background-colors">
             <BackgroundColors />
         </div>
 
+        <br />
         <div>
             <Border />
         </div>
 
+        <br />
         <div>
             <Padding />
         </div>
-
+        
+        <br />
         <div>
             <Margins />
         </div>
 
+        <br />
         <div>
             <Corners />
         </div>
 
+        <br />
         <div>
             <h1 style={{backgroundColor: "yellow"}}>
             Block vs inline elements
@@ -98,16 +118,69 @@ export default function Lab2() {
             with the rest of the content
         </div>
 
+        <br />
         <div>
             <Dimensions />
         </div>
 
+        <br />
         <div>
             <Positions />
         </div>
 
+        <br />
         <div>
             <Zindex />
+        </div>
+
+        <br />
+        <div>
+            <Float />
+        </div>
+
+        <br />
+        <div>
+            <GridLayout />
+        </div>
+
+        <br />
+        <div>
+            <Flex />
+        </div>
+
+        <br />
+        <div>
+            <ReactIconsSampler />
+        </div>
+        
+        <br />
+        <div>
+            <BootstrapGrids />
+        </div>
+
+        <br />
+        <div>
+            <ScreenSizeLabel />
+        </div>
+        
+        <br />
+        <div>
+            <BootstrapTables />
+        </div>
+
+        <br />
+        <div>
+            <BootstrapLists />
+        </div>
+        
+        <br />
+        <div>
+            <BootstrapForms />
+        </div>
+
+        <br />
+        <div>
+            <BootstrapNavigation />
         </div>
 
       </div>
