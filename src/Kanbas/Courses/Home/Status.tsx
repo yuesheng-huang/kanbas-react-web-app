@@ -28,8 +28,6 @@ export default function CourseStatus() {
       <button className="btn btn-lg btn-secondary w-100 mt-1 text-start">
       <LiaFileImportSolid className="me-2 fs-5" /> Import from Commons </button>
 
-      {/* Complete the rest of the buttons */}
-
       <button className="btn btn-lg btn-secondary w-100 mt-1 text-start">
       <IoMdHome className="me-2 fs-5" /> Choose Home Page </button>
 
