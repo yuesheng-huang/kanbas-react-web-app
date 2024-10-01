@@ -1,6 +1,3 @@
-import { Route, Routes, Navigate } from 'react-router';
-import Kanbas from '../Kanbas';
-import Labs from '../Labs';
 import { Link } from 'react-router-dom';
 
 export default function LandingPage() {
