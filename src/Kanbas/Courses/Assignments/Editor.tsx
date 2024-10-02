@@ -8,11 +8,11 @@ export default function AssignmentEditor() {
 
         <div className="form-group row ms-5 mb-4">
           <label htmlFor="wd-name" className="col-form-label">Assignment Name</label>
-          <input id="wd-name" className="form-control ms-2 mt-3 w-100" value="A1" />
+          <input id="wd-name" className="form-control ms-2 mt-3 w-75" value="A1" />
         </div>
 
         <div className="form-group row ms-5 mb-4">
-          <textarea id="wd-description" className="form-control ms-2" aria-label="With textarea">
+          <textarea id="wd-description" className="form-control ms-2 w-75" aria-label="With textarea">
           The assignment is available online Submit a link to the landing page of your Web application running 
           on Netlify. The landing page should include the following: Your full name and section Links to each
           of the lab assignments Link to the Kanbas application Links to all relevant source code repositories
