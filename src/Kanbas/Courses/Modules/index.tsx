@@ -9,8 +9,6 @@ export default function Modules() {
 
     const { cid } = useParams();
     const modules = db.modules;
-    console.log(modules);
-    console.log(cid);
 
     return (
       <div>
