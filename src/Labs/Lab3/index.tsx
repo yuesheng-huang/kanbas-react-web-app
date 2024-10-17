@@ -15,6 +15,7 @@ import AddingAndRemovingToFromArrays from "./AddingAndRemovingToFromArrays";
 import ForLoops from "./ForLoops";
 import MapFunction from "./MapFunction";
 import FindFunction from "./FindFunction";
+import FindIndex from "./FindIndex";
 import FilterFunction from "./FilterFunction";
 import House from "./House";
 import TodoList from "./todos/TodoList";
@@ -28,6 +29,7 @@ import Add from "./Add";
 import Square from "./Square";
 import Highlight from "./Highlight";
 import PathParameters from "./PathParameters";
+import JsonStringify from "./JsonStringify";
 
 export default function Lab3(){
     console.log('Hello World!');
@@ -51,7 +53,9 @@ export default function Lab3(){
             <ForLoops />
             <MapFunction />
             <FindFunction />
+            <FindIndex />
             <FilterFunction />
+            <JsonStringify />
             <House />
             <TodoList />
             <Spreading />

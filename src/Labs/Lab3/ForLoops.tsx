@@ -13,5 +13,4 @@ export default function ForLoops() {
         stringArray2 = {stringArray2} <hr />
       </div>
   );
-}
-  
+} 
